@@ -16,6 +16,7 @@ def search_word_in_strings(main_string_one:list, main_string_two: list) -> list:
     return result
 
 
+
 string_one = input().split(', ')
 string_two = input().split(', ')
 result_from_def_search_word_in_strings = search_word_in_strings(string_one, string_two)
